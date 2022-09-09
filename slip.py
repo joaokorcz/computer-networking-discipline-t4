@@ -75,7 +75,7 @@ class Enlace:
         # apenas pedaços de um quadro, ou um pedaço de quadro seguido de um
         # pedaço de outro, ou vários quadros de uma vez só.
 
-        ferdinandinho = self.fernandola # conteudo recebido AGORA
+        ferdinandinho = self.fernandola # conteudo recebido AGORA JA
         
         for byte in dados:
             if byte.to_bytes(1, 'big') == b'\xC0':
